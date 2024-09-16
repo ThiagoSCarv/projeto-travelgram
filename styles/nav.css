@@ -1,5 +1,4 @@
 nav {
-    border: 4px black solid;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +13,6 @@ nav ul li img {
 
 nav ul {
     box-sizing: border-box;
-    border: 4px red solid;
     list-style: none;
     display: flex;
     align-items: center;
