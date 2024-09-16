@@ -1,0 +1,29 @@
+nav {
+    border: 4px black solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 20px;
+    line-height: 0;
+}
+
+nav ul li img {
+    width: 32px;
+    height: 32px;
+}
+
+nav ul {
+    box-sizing: border-box;
+    border: 4px red solid;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-block: 8px;
+}
+
+nav ul li:last-child img {
+    width: 40px;
+    height: 40px;
+}
+
